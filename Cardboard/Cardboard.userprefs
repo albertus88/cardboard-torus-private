@@ -1,16 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EAE/Scripts/CharacterMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EAE/Scripts/CharacterTrigger.cs">
     <Files>
-      <File FileName="Assets/EAE/Scripts/JoystickInputPC.cs" Line="23" Column="106" />
-      <File FileName="Assets/EAE/Scripts/CharacterMovement.cs" Line="82" Column="60" />
       <File FileName="Assets/EAE/Scripts/JoystickInput.cs" Line="1" Column="1" />
-      <File FileName="Assets/EAE/Scripts/JoystickInputMobile.cs" Line="18" Column="9" />
-      <File FileName="Assets/EAE/Scripts/GameController.cs" Line="27" Column="1" />
-      <File FileName="Assets/EAE/Scripts/Pale.cs" Line="37" Column="9" />
-      <File FileName="Assets/EAE/Scripts/PaleTrigger.cs" Line="10" Column="5" />
-      <File FileName="Assets/EAE/Scripts/PaleFloorTrigger.cs" Line="32" Column="6" />
-      <File FileName="Assets/EAE/Scripts/CharacterTrigger.cs" Line="23" Column="1" />
+      <File FileName="Assets/EAE/Scripts/JoystickInputPC.cs" Line="23" Column="106" />
+      <File FileName="Assets/EAE/Scripts/CharacterMovement.cs" Line="82" Column="1" />
+      <File FileName="Assets/EAE/Scripts/JoystickInputMobile.cs" Line="1" Column="1" />
+      <File FileName="Assets/EAE/Scripts/GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets/EAE/Scripts/Pale.cs" Line="1" Column="1" />
+      <File FileName="Assets/EAE/Scripts/PaleTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/EAE/Scripts/PaleFloorTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/EAE/Scripts/CharacterTrigger.cs" Line="24" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

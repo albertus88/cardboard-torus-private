@@ -27,8 +27,8 @@ TagManager:
   - TriggerFloor
   - Torus
   - Wall
-  - 
-  - 
+  - TorusInside
+  - Floor_2
   - 
   - 
   - 

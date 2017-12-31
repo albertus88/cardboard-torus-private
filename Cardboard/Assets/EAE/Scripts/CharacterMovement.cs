@@ -20,7 +20,7 @@ public class CharacterMovement : MonoBehaviour {
 	[SerializeField]
 	private float _velocityMovementMechanism = 1.0f;
     [SerializeField]
-    private CharacterTrigger _characterTrigger = null;
+    private CharacterTrigger [] _characterTrigger = null;
     [SerializeField]
     private GameObject _dummyPointCheckCollisions = null;
 
@@ -35,9 +35,13 @@ public class CharacterMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-        if (_characterTrigger != null)
+        if (_characterTrigger != null && _characterTrigger.Length > 0)
         {
-            _characterTrigger.AddCallbackTorusPalePicked(OnObjectBlocked, OnReleaseObjectBlocked);
+            for (int i = 0; i < _characterTrigger.Length; i++)
+            {
+                _characterTrigger[i].AddCallbackTorusPalePicked(OnObjectBlocked, OnReleaseObjectBlocked);
+            }
+
         }
 
 #if UNITY_EDITOR
